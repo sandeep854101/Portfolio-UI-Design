@@ -2,7 +2,7 @@ import React from 'react'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
-import { FaTelegram } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
@@ -39,19 +39,19 @@ const Home = () => {
                             <div className='space-y-2'>
                                 <h1 className='font-bold'>Avallable on</h1>
                                 <ul className='flex space-x-5'>
-                                    <li><a href="###" target='-blank'><FaFacebookSquare className='text-xl md:text-3xl hover:scale-110 duration-200  cursor-pointer' /></a></li>
-                                    <li><a href="###" target='-blank'><FaLinkedin className='text-xl md:text-3xl hover:scale-110 duration-200  cursor-pointer' /></a></li>
-                                    <li><a href="https://www.youtube.com/channel/UCzw0LxMd4yvjSSjVmFh9ylg" target='-blank'><FaYoutube className='text-xl md:text-3xl hover:scale-110 duration-200  cursor-pointer' /></a></li>
-                                    <li><a href="###" target='-blank'><FaTelegram className='text-xl md:text-3xl hover:scale-110 duration-200  cursor-pointer' /></a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=100056538092127" target="_blank"><FaFacebookSquare className='text-xl md:text-3xl hover:scale-110 duration-200  cursor-pointer' size={35} /></a></li>
+                                    <li><a href="https://www.instagram.com/sandeep854101/" target="_blank"><FaInstagram className='text-xl md:text-3xl hover:scale-110 duration-200  cursor-pointer' size={35} /></a></li>
+                                    <li><a href="https://www.linkedin.com/in/sandeep-kumar-031782284/" target="_blank"><FaLinkedin className='text-xl md:text-3xl hover:scale-110 duration-200  cursor-pointer' size={35} /></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCmkh9CqlvV4ds-vLNgUZLnA" target='-blank'><FaYoutube className='text-xl md:text-3xl hover:scale-110 duration-200  cursor-pointer' size={35} /></a></li>
                                 </ul>
                             </div>
                             <div className='space-y-2'>
                                 <h1 className='font-bold'>Currently working on</h1>
                                 <ul className='flex space-x-5'>
-                                    <li><SiMongodb className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer' /></li>
-                                    <li><SiExpress className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer' /></li>
-                                    <li><FaReact className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer' /></li>
-                                    <li><FaNodeJs className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer' /></li>
+                                    <li> <a href="https://www.youtube.com/watch?v=zYbKnXCxHfM&list=PLQDioScEMUhkcqbgJ4ap2k4zg3sT_-Bbc&pp=iAQB" target='-blank'><SiMongodb className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer' size={35} /></a></li>
+                                    <li> <a href="https://youtu.be/7H_QH9nipNs?si=AUXS2rBSPGMHUVYQ" target='-blank'><SiExpress className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer' size={35} /></a></li>
+                                    <li> <a href="https://www.youtube.com/watch?v=-mJFZp84TIY&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt" target='-blank'><FaReact className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer' size={35} /></a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=N6PjgN9licA&list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo" target='-blank'><FaNodeJs className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer' size={35} /></a></li>
                                 </ul>
                             </div>
                         </div>
