@@ -49,7 +49,7 @@ function PortFolio() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
           {cardItem.map(({ id, logo, name }) => (
             <div
-              className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"
+              className="md:w-[19rem] md:h-[19rem] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer lg:hover:scale-105 duration-300 my-2 flex flex-col justify-center items-center text-center p-5"
               key={id}
             >
               <img
