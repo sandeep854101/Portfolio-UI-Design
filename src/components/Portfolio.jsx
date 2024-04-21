@@ -49,12 +49,12 @@ function PortFolio() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
           {cardItem.map(({ id, logo, name }) => (
             <div
-              className="md:w-[19rem] md:h-[19rem] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer lg:hover:scale-105 duration-300 my-2 flex flex-col justify-center items-center text-center p-5"
+              className="md:w-[19rem] md:h-[19rem] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer lg:hover:scale-105 duration-300 my-2 flex  flex-col justify-center items-center text-center p-5 "
               key={id}
             >
               <img
                 src={logo}
-                className="w-[120px] h-[120px] p-1 rounded-full border-[2px]"
+                className="w-[120px] h-[120px] p-1 rounded-full border-[2px] "
                 alt=""
               />
               <div>
@@ -63,7 +63,7 @@ function PortFolio() {
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 </p>
               </div>
-              <div className=" px-6 py-4 space-x-3 justify-around">
+              <div className="space-x-4 lg:flex m-4">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
                   Video
                 </button>
