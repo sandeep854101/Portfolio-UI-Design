@@ -41,12 +41,12 @@ function PortFolio() {
   return (
     <div
       name="Portfolio"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
+      className="w-[80%] mx-auto mt-10"
     >
       <div>
         <h1 className="text-3xl font-bold mb-5 my-20">PortFolio</h1>
         <span className=" underline font-semibold">Featured Projects</span>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 my-5">
           {cardItem.map(({ id, logo, name }) => (
             <div
               className="md:w-[19rem] md:h-[19rem] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer lg:hover:scale-105 duration-300 my-2 flex  flex-col justify-center items-center text-center p-5 "

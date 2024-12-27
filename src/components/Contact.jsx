@@ -28,7 +28,7 @@ function Contact() {
     
   return (
    <>
-   <div name="Contact" className='max-w-screen-2x1 container mx-auto px-4 md:px-20 my-16'>
+   <div name="Contact" className='w-[80%] mx-auto my-16'>
     <h1 className='text-3xl font-bold mb-4'>Have questions or need assistance?</h1>
     <span>Fill out the form below, and we'll get back to you as soon as possible.</span>
     <div className='flex flex-col items-center justify-center mt-5'>

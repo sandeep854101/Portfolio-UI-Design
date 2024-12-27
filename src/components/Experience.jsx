@@ -45,7 +45,7 @@ function Experience() {
         }
     ]
   return (
-    <div name="Experience" className='max-w-screen-2x1 container mx-auto px-4 md:px-20 mt-10'>
+    <div name="Experience" className='w-[80%] mx-auto mt-10'>
       <div>
         <h1 className='text-3xl font-bold mb-5'>Experience</h1>
         <p >I have done this project Sandeep kumar</p>
